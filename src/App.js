@@ -16,7 +16,7 @@ function App() {
 
     // Simulate Filtration: Reduces TDS by 50% and brings pH towards 7.0
     const postFilterTDS = initialTDS * 0.5;
-    // const postFilterPH = initialPH > 7.0 ? initialPH - ((initialPH - 7.0) * 0.5) : initialPH + ((7.0 - initialPH) * 0.5);
+    const postFilterPH = initialPH > 7.0 ? initialPH - ((initialPH - 7.0) * 0.5) : initialPH + ((7.0 - initialPH) * 0.5);
 
     // Simulate Turbidity: Assume initial turbidity is related to TDS, and filtration reduces it.
     const initialTurbidity = initialTDS / 10; // Simplified assumption
@@ -79,6 +79,7 @@ function App() {
       contaminationStatus,
       turbidityStatus,
       instructions,
+      postFilterPH,
     });
   };
 

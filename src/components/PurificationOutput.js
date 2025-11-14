@@ -22,6 +22,7 @@ function PurificationOutput({ result }) {
         <p><strong>Status:</strong> {consumableStatus}</p>
         <p><strong>Contamination:</strong> {contaminationStatus}</p>
         <p><strong>Turbidity:</strong> {turbidityStatus}</p>
+        <p><strong>Post-Filter pH:</strong> {result.postFilterPH ? result.postFilterPH.toFixed(2) : 'N/A'}</p>
       </div>
 
       <h3 className="text-lg font-bold mb-2">Purification Instructions:</h3>
