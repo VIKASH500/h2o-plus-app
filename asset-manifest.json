@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/h2o-plus-app/static/css/main.c5569c53.css",
+    "main.js": "/h2o-plus-app/static/js/main.e9997a7e.js",
+    "static/js/453.8abdaddc.chunk.js": "/h2o-plus-app/static/js/453.8abdaddc.chunk.js",
+    "index.html": "/h2o-plus-app/index.html",
+    "main.c5569c53.css.map": "/h2o-plus-app/static/css/main.c5569c53.css.map",
+    "main.e9997a7e.js.map": "/h2o-plus-app/static/js/main.e9997a7e.js.map",
+    "453.8abdaddc.chunk.js.map": "/h2o-plus-app/static/js/453.8abdaddc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c5569c53.css",
+    "static/js/main.e9997a7e.js"
+  ]
+}
